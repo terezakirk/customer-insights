@@ -10,15 +10,15 @@ search.audienceType:
 ---
 
 # Using the events API in real-time journeys
-
-[!INCLUDE [consolidated-sku-rtm-only](.././includes/consolidated-sku-rtm-only.md)]
-
 > [!IMPORTANT]
-> This is a private preview feature.
+> A preview feature is a feature that isn't complete but is made available before it’s officially in a release so customers can get early access and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.
 
-The events API is a programmatic method to access data of events, sessions, session tracks, passes, speakers, and sponsorships. Additionally, it allows you to register for events and sessions.
+The events API is a programmatic method to access data of events, sessions, session tracks, speakers, and sponsorships. Additionally, it allows you to register for events and sessions.
 
 The API access is over HTTPS protocol and is accessed from the API endpoint that you receive while creating a web application token. All data is sent and received as JSON.
+
+> [!NOTE]
+> Events API in real-time journeys currently doesn't support Custom unmapped fields. This feature will be added with the release of Custom unmapped fields in real-time marketing which is planned for March 2025. Customizing a response of the API is planned for General Availability of this feature. 
 
 ## Register for the events API
 
